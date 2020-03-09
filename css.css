@@ -8,26 +8,25 @@ html{
 
 body{
 	background-image: url(https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-deve-picture-id537331500?k=6&m=537331500&s=612x612&w=0&h=VMx4K6hcGW0hLT-5dFRzUo4GFn1Uh6RR3k0n51lxRw0=);
-	
-    
-    background-attachment: fixed;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
-     margin: 0;
+    margin: 0;
     padding: 0;
     width: 100%; 
 }
 header{
-    background-color: #C3CFD1; 
+    background-color: black; 
     margin: 0;
     padding-top: 10px;
     text-align: center;
-      height: 120px; 
+    height: 120px; 
     opacity: 90%;
     text-align: center;
-    
+    color:white;
+
     
 }
+
 #hh{
     width: 100px;
     position: absolute;
@@ -44,10 +43,10 @@ header{
 }
 section{
     margin:0 auto;
-   text-align: center;
+    text-align: center;
 }
 article{
-width: 60%;
+    width: 60%;
     margin-bottom: 40px;
     margin-top: 40px;
     margin-left: 21%;
@@ -125,8 +124,8 @@ form{
     margin-left: 20%;
     background-color: RGB(128, 128, 128, 90%)
 }
-#section-con{
-    
+#section{
+    background-attachment: fixed;
     text-align: center;
         margin: 0 auto;
     margin-top: 30px;
@@ -139,37 +138,48 @@ form{
 
 
 nav{
-    margin-top: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     width: 100%;
-    height: 100%;
+    height: 55px;
+    background: black;
+    border-top: darkgrey 2px solid;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0px;
     
-   
-}
 
+}
+            
+nav  li{
+      display:block;
+      float: right;
+      width:143px;
+      height:20px;
+      padding:5px 10px;
+      background-color:black;
+      text-align:center;
+      color:white;
+    position: relative;
+
+}
 
 nav a{
       text-decoration:none;
       font-size:14px;
-    color: black;
+      color: white;
+    
       }
-            
-nav li{
-      display:block;
-      float: right;
-      width:170px;
-      height:20px;
-      padding:5px 10px;
-      background-color:darkgray;
-      text-align:center;
-      color:black;
-      position:relative;
-      margin left: 0px;
-}
             
 nav li:hover{
-      background-color:#fff;
+      background-color:white;
       color:black;
       }
+
+nav li:hover >a{
+    background-color:white;
+    color: black;
+}
             
 nav li>ul{
       display:none;
